@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dub",
+  "description": "A single immutable fact record in the dubs ledger",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for this record"
+    },
+    "who": {
+      "type": "object",
+      "description": "The person who made the statement",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full name of the person"
+        },
+        "social": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to their social profile"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the specific post or statement"
+        }
+      },
+      "required": ["name", "social", "url"]
+    },
+    "original": {
+      "type": "object",
+      "description": "The original statement and its source",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Verbatim text of the statement"
+        },
+        "url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "URL to the original statement, or null if not available"
+        },
+        "blob": {
+          "type": ["object", "null"],
+          "description": "Raw media data or storage pointer (image/video/audio), or null if not available",
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "MIME type of the media"
+            },
+            "size": {
+              "type": "integer",
+              "description": "Size in bytes"
+            },
+            "hash": {
+              "type": "string",
+              "description": "Content hash for integrity verification"
+            },
+            "storage": {
+              "type": "string",
+              "description": "Storage pointer or path to the media file"
+            }
+          }
+        }
+      },
+      "required": ["text", "url", "blob"]
+    },
+    "event": {
+      "type": "object",
+      "description": "The event or context where the statement was made",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the event"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date of the event (YYYY-MM-DD)"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the event page"
+        }
+      },
+      "required": ["name", "date", "url"]
+    },
+    "captured_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when this fact was captured (YYYY-MM-DDTHH:MM:SS.mmm)"
+    }
+  },
+  "required": ["id", "who", "original", "event", "captured_at"]
+}

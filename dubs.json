@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "dubs": [
+    {
+      "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "who": {
+        "name": "Matthew Hall",
+        "social": "https://www.linkedin.com/in/matthewhall",
+        "url": "https://www.linkedin.com/posts/matthewhall_ai-bootcamp-reflection-activity-72419384"
+      },
+      "original": {
+        "text": "Taking AI theory and turning it into practical application can be daunting, but this training made the entry point clear and actionable. I'm excited to start applying these tools to my daily workflow. Onward!",
+        "url": "https://www.linkedin.com/posts/matthewhall_ai-bootcamp-reflection-activity-72419384",
+        "blob": {
+          "type": "image/png",
+          "size": 245782,
+          "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "storage": "blobs/f47ac10b-58cc-4372-a567-0e02b2c3d479.png"
+        }
+      },
+      "event": {
+        "name": "AI Bootcamp",
+        "date": "2024-10-17",
+        "url": "https://savvyai.dev/bootcamp"
+      },
+      "captured_at": "2024-10-17T14:32:17.483"
+    }
+  ]
+}
