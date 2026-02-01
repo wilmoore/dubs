@@ -24,6 +24,78 @@
         "url": "https://savvyai.dev/bootcamp"
       },
       "captured_at": "2024-10-17T14:32:17.483"
+    },
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "who": {
+        "name": "Nery Rodriguez",
+        "social": "https://savvyai.dev/bootcamp",
+        "url": "https://savvyai.dev/bootcamp"
+      },
+      "original": {
+        "text": "I just went through the AI Bootcamp Replay. While I attended the bootcamp live, the replay let me go deeper and play with ChatGPT side by side. I've got one agent built and some deep research underway! Highly recommend for everyone to attend and watch the replay.",
+        "url": null,
+        "blob": {
+          "type": "image/png",
+          "size": 1247832,
+          "hash": "sha256:b4d3c2a1f0e9d8c7b6a5948372615049382716a5b4c3d2e1f0",
+          "storage": "blobs/a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d.png"
+        }
+      },
+      "event": {
+        "name": "AI Bootcamp",
+        "date": "2024-10-17",
+        "url": "https://savvyai.dev/bootcamp"
+      },
+      "captured_at": "2026-02-01T01:10:50.000"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "who": {
+        "name": "Stephanie Findlay",
+        "social": "https://savvyai.dev/bootcamp",
+        "url": "https://savvyai.dev/bootcamp"
+      },
+      "original": {
+        "text": "The AI session last week was such an insightful class! I can only imagine what the 3 day bootcamp will be like. A must have skill these days!!!",
+        "url": null,
+        "blob": {
+          "type": "image/png",
+          "size": 1247832,
+          "hash": "sha256:b4d3c2a1f0e9d8c7b6a5948372615049382716a5b4c3d2e1f0",
+          "storage": "blobs/b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e.png"
+        }
+      },
+      "event": {
+        "name": "AI Bootcamp",
+        "date": "2024-10-17",
+        "url": "https://savvyai.dev/bootcamp"
+      },
+      "captured_at": "2026-02-01T01:10:50.000"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+      "who": {
+        "name": "Patrick Carrion",
+        "social": "https://savvyai.dev/bootcamp",
+        "url": "https://savvyai.dev/bootcamp"
+      },
+      "original": {
+        "text": "Absolutely recommend!!! Thank you April Sabral and Wil Moore III for creating such an engaging and innovative learning experience!",
+        "url": null,
+        "blob": {
+          "type": "image/png",
+          "size": 1247832,
+          "hash": "sha256:b4d3c2a1f0e9d8c7b6a5948372615049382716a5b4c3d2e1f0",
+          "storage": "blobs/c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f.png"
+        }
+      },
+      "event": {
+        "name": "AI Bootcamp",
+        "date": "2024-10-17",
+        "url": "https://savvyai.dev/bootcamp"
+      },
+      "captured_at": "2026-02-01T01:10:50.000"
     }
   ]
 }
