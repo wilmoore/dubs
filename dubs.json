@@ -96,6 +96,30 @@
         "url": "https://savvyai.dev/bootcamp"
       },
       "captured_at": "2026-02-01T01:10:50.000"
+    },
+    {
+      "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+      "who": {
+        "name": "Terry Hawkins",
+        "social": "https://www.linkedin.com/in/terryhawkins11",
+        "url": "https://www.terryhawkins.com"
+      },
+      "original": {
+        "text": "Hello April and Wil! I just wanted to send a quick follow-up but a massive thank you for such a sensational session with you both. Outside of the guidance and incredible content which of course includes your wonderful wisdom and experience, I was so moved by your genuine generosity. Wil, I will send you a separate email because I would love to have a follow on conversation, and April, words will never suffice the magic that you bring to any space. Sorry it's taken me hours to send you this but I just didn't stop the moment I got off the call so I'm glad you accidentally hung up on us April, haha. Looking forward to the next catch up and once again from the bottom of my heart my deepest thanks for such a great meeting. Chat soon, Terry",
+        "url": null,
+        "blob": {
+          "type": "image/png",
+          "size": 892456,
+          "hash": "sha256:d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7",
+          "storage": "blobs/d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a.png"
+        }
+      },
+      "event": {
+        "name": "AI Bootcamp",
+        "date": "2026-02-05",
+        "url": "https://savvyai.dev/bootcamp"
+      },
+      "captured_at": "2026-02-07T23:34:21.000"
     }
   ]
 }
