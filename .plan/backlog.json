@@ -1,0 +1,17 @@
+{
+  "lastSequence": 1,
+  "items": [
+    {
+      "id": 1,
+      "title": "Add Makefile with viewing utilities",
+      "description": "Create a Makefile with jq-based targets for viewing and querying the dubs ledger. Includes list, count, filter by name/event/date, and media filtering.",
+      "category": "feature",
+      "severity": "medium",
+      "fingerprint": "feature|1|add-makefile-viewing-utilities",
+      "source": "/pro:feature",
+      "sourceBranch": "feat/add-makefile-viewing-utilities",
+      "createdAt": "2026-02-01T01:15:00.000Z",
+      "status": "in-progress"
+    }
+  ]
+}
